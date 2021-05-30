@@ -1,0 +1,21 @@
+$BkColor: rgb(187, 176, 176);
+@mixin colorAndText {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 40px;
+    background-color: $BkColor;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    margin: 2px 5px;
+}
+header {
+    @include colorAndText();
+    .logo {
+        font-family: sans-serif;
+        font-size: 24px;
+    }
+    .nav {
+        font-family: sans-serif;
+        font-size: 24px;
+    }
+}

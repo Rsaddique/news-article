@@ -1,0 +1,32 @@
+// @import "./header.scss";
+// @import "./form.scss";
+// @import "./footer.scss";
+// @import "./resets.scss"; 
+$bckColor: #9e8383;
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    main {
+        flex: 2;
+    }
+    section {
+        max-width: 800px;
+        margin: 50px auto;
+        font-family: sans-serif;
+        font-size: 20px;
+        padding: 3px;
+        .form-results {
+        // background-color: $bckColor;
+        background-color: #9e8383;
+        height: 50px;
+        padding: 3px;
+        border: 1px solid rgb(73, 70, 70);
+        border-radius: 5px;
+        }
+    }
+}
+
+
+
+
