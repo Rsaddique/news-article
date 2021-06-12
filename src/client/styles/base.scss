@@ -1,7 +1,4 @@
-// @import "./header.scss";
-// @import "./form.scss";
-// @import "./footer.scss";
-// @import "./resets.scss"; 
+
 $bckColor: #9e8383;
 body {
     display: flex;
@@ -17,7 +14,6 @@ body {
         font-size: 20px;
         padding: 3px;
         .form-results {
-        // background-color: $bckColor;
         background-color: #9e8383;
         height: auto;
         padding: 3px;
