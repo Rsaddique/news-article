@@ -3,7 +3,7 @@ async function handleSubmit(event) {
     event.preventDefault();
     console.log(event);
     // check what text was put into the form field
-    let formText = document.getElementById('name').value
+    let formText = document.getElementById('name').value 
    if(Client.checkUrl(formText)){
     let response =await fetch('http://localhost:3000/usertext', {
         method: 'POST',
